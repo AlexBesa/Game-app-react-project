@@ -1,3 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    background: rgb(59, 134, 139);
+}
 .games{
-    background: yellow;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    justify-content: center;
+    padding: 15px;
+    margin: 3% auto;
+    
+}
+.games>div {
+    clear: both;
+}
+.image{
+    display: flex;
+    width: 15em;
+    float:left;
+    margin: 10px;
+}
+h1 {
+    color: rgb(255, 228, 227);
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn-delete{
+    background-color:rgb(221, 68, 21);
+    color: white;
+    padding: 10px 7px;
+    text-decoration: none;
+    font-size: 1.2em;  
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 10px 30%;
 }
